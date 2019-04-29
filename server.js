@@ -52,11 +52,13 @@ var sanitize = function(slideshow_content){
 var bitly_short_names = [];
 var bitly_gist_ids = [];
 
+//REVEAL_THEME : process.env.REVEAL_THEME || '450836bbaebcf4c4ae08b331343a7886'
+
 var config = cc({
   REVEAL_SOCKET_SECRET : process.env.REVEAL_SOCKET_SECRET || (Math.floor(Math.random()*1000).toString() + new Date().getTime().toString())
 , WEBSOCKET_ENABLED : process.env.WEBSOCKET_ENABLED || "true"
 , DEFAULT_GIST : process.env.DEFAULT_GIST || 'af84d40e58c5c2a908dd'
-, REVEAL_THEME : process.env.REVEAL_THEME || '450836bbaebcf4c4ae08b331343a7886'
+, REVEAL_THEME : process.env.REVEAL_THEME || 'b9974e347fda37724fe8fb47bcd6c39a'
 , DEBUG : Number(process.env.DEBUG) || 0
 , GIST_THEMES : process.env.GIST_THEMES || "true"
 , GH_CLIENT_ID : process.env.GH_CLIENT_ID
