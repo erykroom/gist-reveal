@@ -60,7 +60,7 @@ var config = cc({
 , DEFAULT_GIST : process.env.DEFAULT_GIST || 'af84d40e58c5c2a908dd'
 , REVEAL_THEME : process.env.REVEAL_THEME || 'b9974e347fda37724fe8fb47bcd6c39a'
 , DEBUG : Number(process.env.DEBUG) || 0
-, GIST_THEMES : process.env.GIST_THEMES || "true"
+, GIST_THEMES : process.env.GIST_THEMES || "false"
 , GH_CLIENT_ID : process.env.GH_CLIENT_ID
 , GH_CLIENT_SECRET : process.env.GH_CLIENT_SECRET
 , GA_TRACKER : process.env.GA_TRACKER
