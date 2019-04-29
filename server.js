@@ -58,7 +58,7 @@ var config = cc({
   REVEAL_SOCKET_SECRET : process.env.REVEAL_SOCKET_SECRET || (Math.floor(Math.random()*1000).toString() + new Date().getTime().toString())
 , WEBSOCKET_ENABLED : process.env.WEBSOCKET_ENABLED || "true"
 , DEFAULT_GIST : process.env.DEFAULT_GIST || 'af84d40e58c5c2a908dd'
-, REVEAL_THEME : process.env.REVEAL_THEME || 'b9974e347fda37724fe8fb47bcd6c39a'
+, REVEAL_THEME : process.env.REVEAL_THEME ||
 , DEBUG : Number(process.env.DEBUG) || 0
 , GIST_THEMES : process.env.GIST_THEMES || "true"
 , GH_CLIENT_ID : process.env.GH_CLIENT_ID
